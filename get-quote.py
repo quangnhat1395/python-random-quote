@@ -1,11 +1,11 @@
-def primary2():
-  print("Keep it logically awesome.")
+def print_stament():
 
   f = open("quotes.txt")
   quotes = f.readlines()
   f.close()
 
-  print(quotes)
+  print(quotes[0])
 
 if __name__== "__main__":
-  primary2()
+  print_stament()
+
